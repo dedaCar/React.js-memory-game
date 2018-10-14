@@ -1,0 +1,10 @@
+.board {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #FFBF00;
+}
