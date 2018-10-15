@@ -1,0 +1,39 @@
+.card {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    float: left;
+    box-shadow: 0 0 5px;
+    position: relative;
+    overflow: hidden;
+    line-height: 50px;
+}
+.front {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #E34234;
+  backface-visibility: hidden;
+  transition: all 1s;
+}
+
+.back {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font-size: 48px;
+  color: white;
+  background: tomato;
+  text-shadow: 2px 2px 2px darkslategrey, -2px -2px 2px darkslategrey;
+  backface-visibility: hidden;
+  transform: perspective(900px) rotateY(180deg);
+  transition: all 1s;
+}
+
+.symbol {
+  max-width: 100%;
+  min-height: 100%;
+}
